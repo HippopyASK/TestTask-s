@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="1">
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='org.apache.maven.plugins.1' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/1/greet" class="org.apache.maven.plugins.server.GreetingServiceImpl" />
+
+</module>
